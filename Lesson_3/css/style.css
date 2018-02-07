@@ -1,0 +1,43 @@
+body {
+	background: #f8f9f9;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	padding: 0 15px;
+	width: 1200px;
+	font-size: 18px;
+}
+
+.title {
+	text-align: center;
+}
+
+.heading {
+	text-align: center;
+}
+
+.name {
+	text-decoration: underline;
+}
+
+.content {
+	position: fixed;
+    top: 30px;
+    right: 0;
+    width: 250px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.bold-italic {
+	font-weight: bold;
+	font-style: italic;
+}
