@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  max-width: 2500px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header {
+  background: url(../images/header/header-bg.jpg) no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+}
+
+.header__top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.logo {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(6.25% - 20px);
+  margin-left: calc(6.25% + 10px);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*.block-menu {
+	@include col();
+	@include size(5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}*/
+
+.menu__link,
+.submenu__link {
+  color: #ffffff;
+  padding: 5px 20px;
+  font-weight: 700;
+}
+
+.menu__link:hover,
+.submenu__link:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-bottom: 3px solid #ffff00;
+}
+
+.menu__link_active {
+  border-bottom: 3px solid #ffff00;
+}
+
+.menu {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(18.75% - 20px);
+  margin-left: calc(56.25% + 10px);
+  font-size: 36px;
+}
+
+.menu__items {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__items li {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  display: none;
+  z-index: 1;
+}
+
+.menu__items li:hover .submenu {
+  display: block;
+}
+
+.button-menu {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(6.25% - 20px);
+  margin-left: calc(6.25% + 10px);
+  text-align: center;
+  cursor: pointer;
+}
+
+.content-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.social {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(6.25% - 20px);
+  margin-top: 235px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.title {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(75% - 20px);
+  margin-left: calc(6.25% + 10px);
+  margin-right: calc(6.25% + 10px);
+  font-size: 510px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.22px;
+}
+
+.title span {
+  display: block;
+  font-size: 110px;
+  font-weight: 400;
+}
+
+.circle-nav-content {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(6.25% - 20px);
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.circle-nav-content a {
+  margin: 10px 0;
+}
+
+.circle {
+  display: block;
+  background: #ffffff;
+  margin: 0 5px;
+}
+
+.circle-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.circle-last {
+  width: 13px;
+  height: 14px;
+  border-radius: 100%;
+}
+
+.circle-small {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}
+
+.circle-middle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.circle-big {
+  width: 25px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.circle-active {
+  background: #ffff00;
+}
+
+.button-next {
+  cursor: pointer;
+}
+
+.button-next img {
+  width: 116px;
+  display: block;
+}
+
+.button-view {
+  padding: 0 170px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  border: 7px solid #f5e700;
+  background: transparent;
+  color: #f5e700;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  cursor: pointer;
+}
+
+.button-view:hover {
+  background: #f5e700;
+  color: #000000;
+}
+
+.header__bottom {
+  margin-top: 231px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.head__text {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.72px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
